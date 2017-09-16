@@ -18,7 +18,7 @@ public class OpenGoogle {
 		System.setProperty("webdriver.chrome.driver", "D://Elamathy//chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 	//	driver.get("https://www.google.co.in/?gfe_rd=cr&ei=j-eXWfyDB-Tx8Ae8mZewAw");
-        driver.navigate().to("https://www.google.co.in/?gfe_rd=cr&ei=j-eXWfyDB-Tx8Ae8mZewAw");
+        driver.navigate().to("https://docs.google.com/forms/d/e/1FAIpQLSewZMCgWIOv5rNsyZBfV-PEDPQCiBgXcHcF4kJ0Pk_2uqvIDQ/viewform");
         //Thread.sleep(3000);
 	    //driver.navigate().back();
 	    /*Thread.sleep(3000);
