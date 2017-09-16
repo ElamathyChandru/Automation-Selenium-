@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22420" started-at="2017-09-16T08:53:45Z" finished-at="2017-09-16T08:54:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22420" started-at="2017-09-16T08:53:45Z" finished-at="2017-09-16T08:54:08Z">
+      <class name="testNG.TestGoogle">
+        <test-method status="PASS" signature="Bing()[pri:1, instance:testNG.TestGoogle@4de8b406]" name="Bing" duration-ms="6664" started-at="2017-09-16T14:23:45Z" finished-at="2017-09-16T14:23:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bing -->
+        <test-method status="PASS" signature="TestGoogle()[pri:2, instance:testNG.TestGoogle@4de8b406]" name="TestGoogle" duration-ms="15734" started-at="2017-09-16T14:23:52Z" finished-at="2017-09-16T14:24:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGoogle -->
+      </class> <!-- testNG.TestGoogle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
