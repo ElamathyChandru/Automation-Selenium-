@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22420" started-at="2017-09-16T08:53:45Z" finished-at="2017-09-16T08:54:08Z">
+  <suite name="Test Suite" duration-ms="57" started-at="2017-09-23T05:58:44Z" finished-at="2017-09-23T05:58:44Z">
     <groups>
+      <group name="Grapes">
+        <method signature="GroupTest.Grapes()[pri:0, instance:testNG.GroupTest@573f2bb1]" name="Grapes" class="testNG.GroupTest"/>
+        <method signature="GroupTest.Grapes1()[pri:0, instance:testNG.GroupTest@573f2bb1]" name="Grapes1" class="testNG.GroupTest"/>
+      </group> <!-- Grapes -->
+      <group name="Strawberry">
+        <method signature="GroupTest.Strawberry()[pri:0, instance:testNG.GroupTest@573f2bb1]" name="Strawberry" class="testNG.GroupTest"/>
+        <method signature="GroupTest.Strawberry1()[pri:0, instance:testNG.GroupTest@573f2bb1]" name="Strawberry1" class="testNG.GroupTest"/>
+      </group> <!-- Strawberry -->
     </groups>
-    <test name="Default test" duration-ms="22420" started-at="2017-09-16T08:53:45Z" finished-at="2017-09-16T08:54:08Z">
-      <class name="testNG.TestGoogle">
-        <test-method status="PASS" signature="Bing()[pri:1, instance:testNG.TestGoogle@4de8b406]" name="Bing" duration-ms="6664" started-at="2017-09-16T14:23:45Z" finished-at="2017-09-16T14:23:52Z">
+    <test name="Group Test" duration-ms="57" started-at="2017-09-23T05:58:44Z" finished-at="2017-09-23T05:58:44Z">
+      <class name="testNG.GroupTest">
+        <test-method status="PASS" signature="Grapes()[pri:0, instance:testNG.GroupTest@573f2bb1]" name="Grapes" duration-ms="12" started-at="2017-09-23T11:28:44Z" finished-at="2017-09-23T11:28:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Bing -->
-        <test-method status="PASS" signature="TestGoogle()[pri:2, instance:testNG.TestGoogle@4de8b406]" name="TestGoogle" duration-ms="15734" started-at="2017-09-16T14:23:52Z" finished-at="2017-09-16T14:24:08Z">
+        </test-method> <!-- Grapes -->
+        <test-method status="PASS" signature="Grapes1()[pri:0, instance:testNG.GroupTest@573f2bb1]" name="Grapes1" duration-ms="2" started-at="2017-09-23T11:28:44Z" finished-at="2017-09-23T11:28:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestGoogle -->
-      </class> <!-- testNG.TestGoogle -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- Grapes1 -->
+        <test-method status="PASS" signature="Strawberry()[pri:0, instance:testNG.GroupTest@573f2bb1]" name="Strawberry" duration-ms="1" started-at="2017-09-23T11:28:44Z" finished-at="2017-09-23T11:28:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Strawberry -->
+        <test-method status="PASS" signature="Strawberry1()[pri:0, instance:testNG.GroupTest@573f2bb1]" name="Strawberry1" duration-ms="9" started-at="2017-09-23T11:28:44Z" finished-at="2017-09-23T11:28:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Strawberry1 -->
+      </class> <!-- testNG.GroupTest -->
+    </test> <!-- Group Test -->
+  </suite> <!-- Test Suite -->
 </testng-results>

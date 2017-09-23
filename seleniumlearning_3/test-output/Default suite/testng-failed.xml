@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testNG.TestGoogle">
+      <class name="testNG.MultlipleApps">
         <methods>
-          <include name="TestGoogle"/>
+          <include name="closeBrowser"/>
+          <include name="openGoogle"/>
+          <include name="launchBrowser"/>
         </methods>
-      </class> <!-- testNG.TestGoogle -->
+      </class> <!-- testNG.MultlipleApps -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
